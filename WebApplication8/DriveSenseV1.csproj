@@ -75,10 +75,12 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Images\58e9196deb97430e819064f6.png" />
     <Content Include="Images\achievement-agreement-black-and-white-997718.jpg" />
     <Content Include="Images\action-asian-asphalt-539858.jpg" />
     <Content Include="Images\desk-smartphone-writing-work-screen-coffee-912378-pxhere.com %281%29.jpg" />
     <Content Include="Images\desk-smartphone-writing-work-screen-coffee-912378-pxhere.com.jpg" />
+    <Content Include="Images\facebook_circle-512.png" />
     <Content Include="Images\road-white-traffic-car-automobile-van-592606-pxhere.com.jpg" />
     <Content Include="Images\tracking-system-cars-truck-apps-cartography-1444187-pxhere.com.jpg" />
     <Content Include="Images\truck_toy_pickup_christmas_tree_motor_vehicle-116857.jpg" />
@@ -133,7 +135,9 @@
     <Content Include="SiteMasterPages\Login.aspx" />
     <Content Include="SiteMasterPages\Welcome.aspx" />
     <Content Include="SiteMasterPages\StyleSheet1.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

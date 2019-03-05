@@ -187,3 +187,39 @@ body{
     }
 }
 /*login-section-1*/
+.login-site-content {
+    background-image: url('../Images/seb-creativo-197860-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+    .login-site-content .site-title, .login-site-content .site-desc {
+        color: white;
+        font-family: 'Righteous';
+    }
+
+.login-site-content .site-title {
+    margin-top: 10%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.login-site-content .site-desc {
+    font-size: 30px;
+    padding: 7%;
+}
+
+.login-site-content .site-btn1 {
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+}
+
+.login-site-content .site-btn2 {
+    background-color: white;
+}
+
+.login-site-content .site-btn2, .login-site-content .site-btn1 {
+    margin-top: 5%;
+    margin-bottom: 400vh;
+}
