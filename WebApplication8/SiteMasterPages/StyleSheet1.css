@@ -88,6 +88,9 @@ body{
 {
     margin-bottom: 8%;
 }
+.card {
+    width:20rem;
+}
 /*Section-2*/
 .section-2 .container-fluid {
     background-image: url('../Images/vanveenjf-1125254-unsplash.jpg');
@@ -126,21 +129,60 @@ body{
 }
 /*Section-4*/
 .section-4 {
-    margin-top:8%;
+   margin-top: 8%;
 }
-    .section-4 .row  .col-md-5 {
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
+.section-4 .row .col-md-7, .col-md-5{
+     margin-top: 10%;
+     margin-bottom: 10%
+}
     .section-4 a {
-        color: #006A8E;
-        font-size:40px;
-        text-decoration: none;
+        color: lightseagreen;
+        font-size: 40px;
+        text-decoration:none;
     }
     .section-4 .para-1 {
-        color: white;
+        color:white;
         font-family:'Roboto Condensed';
-        font-size: 23px;
-        margin-top:7%;
-      
+         margin-top: 7%;
+         font-size:23px
     }
+/*Footer*/
+.social i{
+    color:#EF5651;
+    font-size:30px;
+}
+
+@media screen and (max-width:768px) 
+{
+    .section-1 .card {
+        width: 14rem;
+    }
+    .section-4 .col-md-7 img{
+        width:350px;
+    }
+}
+@media screen and (max-width:320px) {
+    .site-content .site-title {
+        font-size:30px;
+        padding-left:15px;
+    }
+    .site-content .site-btn1 {
+        display:none;
+
+    }
+    .site-content .site-btn2 {
+        margin-left: 15px;
+    }
+    .section-1 .heading-1 , .section-1 .heading-2 {
+        font-size:25px;
+    }
+    .section-1 .card {
+        width:15rem;
+    }
+    .section-4 .col-md-5 {
+        padding: 0% 15%;
+    }
+    footer input[type="button"] {
+        margin-top:5%;
+    }
+}
