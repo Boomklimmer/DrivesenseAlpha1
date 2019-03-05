@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <main>
+    <main>
       <div class="container-fluid p-0">
           <div class="site-content">
               <div class="d-flex justify-content-center">
@@ -11,7 +11,7 @@
                       <p class="site-desc">
                           Computer Vision Solution.</p>
                       <div class="d-flex flex-row">
-                          <input type="button" value="Log in" class="btn site-btn1 px-4 py-2 mr-4 btn-dark" />
+                          <input type="button" value="Log in" class="btn site-btn1 px-4 py-2 mr-4 btn-dark" onclick="Go_To_Login()"/>
                           <input type="button" value="Register" class="btn site-btn2 px-4 py-2 mr-4 btn-light" />
                       </div>
                   </div>
@@ -195,8 +195,15 @@
         sr.reveal('.section-1 .card');
         sr.reveal('.section-2 .d-flex');
         sr.reveal('.section-1 .col-md-4');
+        sr.reveal('.section-3 .col-md-4');
         sr.reveal('.section-1 .col-md-7, .col-md-5');
        
+    </script>
+        <script>
+                    function Go_To_Login()
+                    {
+                     location.href = "login.aspx";
+                    } 
     </script>
     </main>
 </asp:Content>

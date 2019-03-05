@@ -37,7 +37,7 @@
            <div class="Collapse navbar-collapse" id="navbarMenu">
                <ul class="navbar-nav mr-auto">
                    <li class="nav-item active">
-                       <a href="#" class="nav-link">Home</a>
+                       <a href="welcome.aspx" class="nav-link">Home</a>
                    </li>
                    <li class="nav-item">
                        <a href="#" class="nav-link">Features</a>
@@ -54,10 +54,10 @@
 
                </ul>
                <form class="form-inline my-2 my-lg-0">
-                   <button class="btn menu-right-btn border" type="submit">
+                   <button class="btn menu-right-btn border" type="button" value="Input Button" onclick="Go_To_Login()">
                        Login
                    </button>
-
+                  
                </form>
 
            </div>
@@ -92,6 +92,13 @@
         sr.reveal('.section-1 .col-md-4');
         sr.reveal('.section-1 .col-md-7, .col-md-5');
        
+    </script>
+
+     <script>
+                    function Go_To_Login()
+                    {
+                     location.href = "login.aspx";
+                    } 
     </script>
 </body>
 </html>
