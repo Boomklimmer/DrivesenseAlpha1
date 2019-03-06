@@ -133,6 +133,7 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="SiteMasterPages\Login.aspx" />
+    <Content Include="SiteMasterPages\LoginStyle.css" />
     <Content Include="SiteMasterPages\Welcome.aspx" />
     <Content Include="SiteMasterPages\StyleSheet1.css" />
     <Content Include="Web.config">

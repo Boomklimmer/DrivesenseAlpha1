@@ -2,20 +2,32 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<link href="LoginStyle.css" rel="stylesheet" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <main>
-          <div class="container-fluid p-0">
-          <div class="login-site-content">
-              <div class="d-flex justify-content-center">
-                  <div class="d-flex flex-column">
-                      <h1 class="site-title">Welcome To DriveSense</h1>
-                      <div class="d-flex flex-row">
-                          <input type="button" value="Log in" class="btn site-btn1 px-4 py-2 mr-4 btn-dark" onclick="Go_To_Login()"/>
-                          <input type="button" value="Register" class="btn site-btn2 px-4 py-2 mr-4 btn-light" />
-                      </div>
-                  </div>
-              </div>
+ <div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
 
-          </div>
-      </div>
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="../Images/LogoNoTextFinal%20(1).png" " id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <div>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <input type="submit" class="fadeIn fourth border" value="Log In">
+    </div>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
     </main>
 </asp:Content>
