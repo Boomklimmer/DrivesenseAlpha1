@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SiteMasterPages/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication8.SiteMasterPages.Login" %>
+﻿
+<%@ Page Title="" Language="C#" MasterPageFile="~/SiteMasterPages/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication8.SiteMasterPages.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -9,7 +10,7 @@
  <div class="wrapper fadeInDown">
   <div id="formContent">
     <!-- Tabs Titles -->
-
+      <!--version 7/3/19 19:00 -->
     <!-- Icon -->
     <div class="fadeIn first">
       <img src="../Images/LogoNoTextFinal%20(1).png" " id="icon" alt="User Icon" />
